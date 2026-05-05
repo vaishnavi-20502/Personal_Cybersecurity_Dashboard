@@ -1,7 +1,7 @@
 {
   "name": "siem-lite-dashboard",
   "version": "1.0.0",
-  "description": "",
+  "description": "A lightweight Security Information and Event Management (SIEM) system built using Node.js and PostgreSQL. This project simulates real-time log monitoring, anomaly detection, and security visualization to provide centralized visibility of system activities.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -11,6 +11,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "axios": "^1.16.0",
     "cors": "^2.8.6",
     "dotenv": "^17.4.2",
     "express": "^5.2.1",
@@ -18,5 +19,12 @@
     "pg": "^8.20.0",
     "socket.io": "^4.8.3"
   },
-  "devDependencies": {}
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vaishnavi-20502/Personal_Cybersecurity_Dashboard.git"
+  },
+  "bugs": {
+    "url": "https://github.com/vaishnavi-20502/Personal_Cybersecurity_Dashboard/issues"
+  },
+  "homepage": "https://github.com/vaishnavi-20502/Personal_Cybersecurity_Dashboard#readme"
 }

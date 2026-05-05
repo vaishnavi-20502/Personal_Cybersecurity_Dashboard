@@ -19,7 +19,7 @@ exports.addLog = async (req, res) => {
 
     res.json({ message: "Log stored" });
   } catch (err) {
-    console.error(err);
-    res.status(500).json({ error: "Error storing log" });
+  console.error("REAL ERROR:", err);
+  res.status(500).json({ error: err.message });
   }
 };
